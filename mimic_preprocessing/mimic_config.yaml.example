@@ -1,0 +1,15 @@
+train_features_path : '~/horseshoe_bnn/data/mimic/length_of_stay/X_train.pkl'
+train_labels_path : '~/horseshoe_bnn/data/mimic/length_of_stay/y_train.pkl'
+train_features_path_with_nan :  '~/horseshoe_bnn/data/mimic/length_of_stay/X_train_with_nan.pkl'
+train_labels_path_with_nan : '~/horseshoe_bnn/data/mimic/length_of_stay/y_train_with_nan.pkl'
+train_dir : '~/mimic3-benchmarks/data/length-of-stay/train/'
+train_listfile : '~/mimic3-benchmarks/data/length-of-stay/train/listfile.csv'
+
+test_features_path: '~/horseshoe_bnn/data/mimic/length_of_stay/X_test.pkl'
+test_labels_path: '~/horseshoe_bnn/data/mimic/length_of_stay/y_test.pkl'
+test_features_path_with_nan: '~/horseshoe_bnn/data/mimic/length_of_stay/X_test_with_nan.pkl'
+test_labels_path_with_nan: '~/horseshoe_bnn/data/mimic/length_of_stay/y_test_with_nan.pkl'
+test_dir: '~/mimic3-benchmarks/data/length-of-stay/test/'
+test_listfile: '~/mimic3-benchmarks/data/length-of-stay/test/listfile.csv'
+
+

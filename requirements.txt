@@ -1,0 +1,13 @@
+numpy
+ipdb
+scikit-learn
+pytest
+pytest-cov
+pandas
+matplotlib
+torch
+torchvision
+tensorflow-gpu
+tensorboardX
+dataclasses
+pyyaml
