@@ -47,7 +47,7 @@ The code for the individual models is located at *'horseshoe_bnn/models.py'*.
 │    │
 │    ├── data_handling        <- Scripts to handle data
 │    │   │                
-│    │   ├── dataset.py             <- Custom Dataset class
+│    │   ├── dataset.py                <- Custom Dataset class
 │    │   └── dataset_to_dataloaders.py <- Function to convert Dataset instance to Pytorch dataloader
 │    │
 │    │
@@ -57,7 +57,7 @@ The code for the individual models is located at *'horseshoe_bnn/models.py'*.
 │    │   └── evaluate_all_models.py <- Example script how to run evaluation
 │    │
 │    ├── metrics.py              <- Metric classes
-│    ├── models.py                <- All model classes
+│    ├── models.py               <- All model classes
 │    ├── distributions.py        <- Distribution classes
 │    ├── network_layers.py       <- BNN network layer classes
 │    ├── aggregation_result.py   <- Aggregation result class
