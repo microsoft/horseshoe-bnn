@@ -27,7 +27,7 @@ Clinical decision making is challenging because of pathological complexity, as w
 
 A script which trains and evaluates all models on the [Boston Housing Dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html) can be found in *'horseshoe_bnn/evaluation/evaluate_all_models.py'*. The script contains an example of how to train the models using the evaluator.
 
-The code for the individual models is located at *'horseshoe_bnn/models/model.py'*.
+The code for the individual models is located at *'horseshoe_bnn/models.py'*.
 
 ## Repository Structure
 
@@ -57,7 +57,7 @@ The code for the individual models is located at *'horseshoe_bnn/models/model.py
 │    │   └── evaluate_all_models.py <- Example script how to run evaluation
 │    │
 │    ├── metrics.py              <- Metric classes
-│    ├── model.py                <- All model classes
+│    ├── models.py                <- All model classes
 │    ├── distributions.py        <- Distribution classes
 │    ├── network_layers.py       <- BNN network layer classes
 │    ├── aggregation_result.py   <- Aggregation result class
