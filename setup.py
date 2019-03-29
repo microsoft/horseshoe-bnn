@@ -10,7 +10,7 @@ LONG_DESCRIPTION = 'This package includes code for training and evaluating Baysi
                    'feature selection. Four models are included: two (linear and non-linear) using '\
                    'Gaussian prior distributions and two (linear and non-linear) using Horseshoe prior. '\
                    'distributions. The horseshoe distribution introduces sparsity in the latter two models '\
-                   'and allows for performing feature selection.'
+                   'and allows for performing feature selection. '
 
 setuptools.setup(
     name=NAME,
