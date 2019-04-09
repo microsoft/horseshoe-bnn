@@ -27,7 +27,7 @@ If you use this code in your research, please cite the following publication: **
 - This dataset is not publically available
 - Details on the dataset, including preprocessing and features can be found in our paper
 
-3. [Boston Housing Dataset]((https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html))
+3. [Boston Housing Dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html)
 - To demonstrate the functioning of our networks and evaluator we use a publically available dataset, available within sckikit-learn
 - The [example script](https://github.com/Microsoft/horseshoe-bnn/blob/master/horseshoe_bnn/evaluation/evaluate_all_models.py
 ) for running the evaluator uses this dataset
