@@ -78,7 +78,7 @@ The code for the individual models is located [here](https://github.com/Microsof
 
 ## License
 
-This repository is licensed under the MIT license.
+This repository is licensed under the Microsoft Research license.
 
 ## Contributing
 
