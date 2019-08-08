@@ -17,7 +17,7 @@ Clinical decision making is challenging because of pathological complexity, as w
 
 ## Installation
 
-The code runs in Python 3.7 and Pytorch 1.1. To install the package please first clone the repo. After that, navigate to the project and run the following command in your command line
+The code runs in Python 3.7 and Pytorch 1.1. To install the package please first clone the repo. After that, navigate to the project and run the following command in your command line. This will install the ```horseshoe_bnn``` package.
 ```bash
 pip install -e .
 ```
@@ -61,10 +61,13 @@ Popkes, A. L., Overweg, H., Ercole, A., Li, Y., Hernández-Lobato, J. M., Zaykov
 
 ## Getting started
 
-A script which trains and evaluates all models on the [Boston Housing Dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html) can be found [here](https://github.com/Microsoft/horseshoe-bnn/blob/master/horseshoe_bnn/evaluation/evaluate_all_models.py). The script contains an example of how to train the models using the evaluator.
+A script which trains and evaluates all models on the [Boston Housing dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html) can be found [here](https://github.com/Microsoft/horseshoe-bnn/blob/master/horseshoe_bnn/evaluation/evaluate_all_models.py). The script contains an example of how to train the models using the evaluator. To run the example script please follow the installation instructions. After that, navigate to the folder ```horseshoe_bnn/evaluation/``` and run the following command. This will run all models on the Boston Housing dataset and print results to the console.
 
-The code for the individual models is located [here](https://github.com/Microsoft/horseshoe-bnn/blob/master/horseshoe_bnn/models.py
-).
+```python
+python evaluate_all_models.py
+```
+
+The code for the individual models is located [here](https://github.com/Microsoft/horseshoe-bnn/blob/master/horseshoe_bnn/models.py).
 
 ## Repository Structure
 
