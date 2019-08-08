@@ -4,11 +4,10 @@ Author: Hiske Overweg, Anna-Lena Popkes
 Description: All metric classes
 """
 
-from abc import ABCMeta, abstractmethod
 import numpy as np
+from abc import ABCMeta, abstractmethod
 from horseshoe_bnn.distributions import PredictiveDistribution, BinarySampleDistribution
 from horseshoe_bnn.aggregation_result import AveragedResult, CalibrationResult, HistogramResult
-# import matplotlib.pyplot as plt
 from sklearn.metrics import f1_score as f1
 
 class Metric(metaclass=ABCMeta):

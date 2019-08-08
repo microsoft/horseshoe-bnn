@@ -14,8 +14,7 @@ import torch
 import math
 from abc import ABCMeta, abstractmethod
 from scipy.stats import norm, bernoulli
-from scipy.misc import logsumexp
-from scipy.special import gamma, digamma, loggamma
+from scipy.special import gamma, digamma, loggamma, logsumexp
 
 
 class Distribution(metaclass=ABCMeta):

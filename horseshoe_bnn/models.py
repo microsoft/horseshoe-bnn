@@ -14,8 +14,7 @@ import torch.optim as optim
 import torch.nn as nn
 import torch.nn.functional as F
 
-from scipy.misc import logsumexp
-from scipy.special import psi
+from scipy.special import psi, logsumexp
 from abc import ABCMeta, abstractmethod
 
 from horseshoe_bnn.metrics import AllMetrics
