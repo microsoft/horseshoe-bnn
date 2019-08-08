@@ -20,12 +20,12 @@ If you use this code in your research, please cite the following publication: **
 ## Datasets 
 
 1. [MIMIC-III](https://mimic.physionet.org/)
-- Instructions on how to download the dataset can be found [here]()
-- Details on the dataset, including preprocessing and features can be found in our paper
+- Instructions on how to download the dataset can be found [here](https://mimic.physionet.org/gettingstarted/access/)
+- Details on the dataset, including preprocessing and features can be found in [our paper](https://arxiv.org/pdf/1905.02599.pdf)
 
 2. [Center TBI dataset](https://www.center-tbi.eu/data)
 - This dataset is not publically available
-- Details on the dataset, including preprocessing and features can be found in our paper
+- Details on the dataset, including preprocessing and features can be found in [our paper](https://arxiv.org/pdf/1905.02599.pdf)
 
 3. [Boston Housing Dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_boston.html)
 - To demonstrate the functioning of our networks and evaluator we use a publically available dataset, available within sckikit-learn
