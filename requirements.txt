@@ -7,7 +7,6 @@ pandas
 matplotlib
 torch
 torchvision
-tensorflow-gpu
 tensorboardX
 dataclasses
 pyyaml
