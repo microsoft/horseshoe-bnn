@@ -275,7 +275,7 @@ class GaussianBNN(nn.Module, Model):
                     mse += F.mse_loss(mean_output, target, reduction='sum')
                     mae += F.l1_loss(mean_output, target, reduction='sum')
 
-                    distributions = [SampleDistribution(ensemble_outputs.cpu().detach().numpy()[i], var_noise)
+                    distributions = [SampleDistribution(ensemble_outputs[i], var_noise)
                                         for i in range(test_batch_size)]
 
                 all_predicted_distributions.extend(distributions)
